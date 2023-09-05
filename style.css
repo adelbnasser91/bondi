@@ -1,0 +1,79 @@
+.navbar{
+
+    background-color: #19283f;
+}
+.navbar .navbar-nav .nav-link
+{
+
+color: white;
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: #04aeab;
+}
+
+
+
+
+.navbar-brand{
+    color:white ;
+}
+.navbar .search{
+    border-left: 1px solid red;
+}
+.main-btn{
+    background-color: red;
+    border: 1px solid red;
+    color: yellow;
+    padding: .5rem 1rem;
+}
+
+
+
+.main-btn:hover{
+
+    background-color: red;
+    border: 1px solid red;
+    color: yellow;
+}
+
+.landing{
+
+    background-color: #19283f;
+height: 900px;}
+body{
+    font-family: 'Roboto',sans-serif ;
+}
+.main-title::after{
+
+content: "";
+width: 120px;
+height: 2px;
+background-color: #04aeab;
+position: absolute;
+bottom: -20px;
+transform: translateX(-50%);
+
+}
+.feat .icon-holder{
+    height: 200px;
+}
+.feat .icon-holder .number{
+
+    font-size: 12rem;
+    color: #eff7fa;
+}
+.feat .icon-holder .icon{
+    font-size: 4rem;
+    color: #33d1cc;
+}
+.feat .icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.footer{
+    background-color: #19283f;
+}
